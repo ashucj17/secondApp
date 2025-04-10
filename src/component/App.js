@@ -10,7 +10,7 @@ class App extends Component{
             <Header />
             <hr/>
             <h1>Class based component</h1>
-            <Footer />
+            <Footer year='2025' month='April'/>
             </div>
         )
     }

@@ -1,11 +1,16 @@
 import React from "react";
 
-function Footer (){
+function Footer(props){
+
+    console.log(props);
+    {/* Destructuring*/}
+const{month,year} = props
+
     return(
-        <div>
+        <footer>
             <hr/>
-            <h2>&copy; DevTools 2025</h2>
-        </div>
+            <h2>&copy; DevTools {month} {year}</h2>
+        </footer>
     )
 }
 
