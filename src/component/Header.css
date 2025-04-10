@@ -5,3 +5,9 @@ h1{
     font-size: 20px;
 
 }
+
+.header{
+    text-align: center;
+    background: #1ed;
+    color: #111;
+}
