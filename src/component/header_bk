@@ -1,0 +1,21 @@
+import React from "react";
+
+function Header(){
+
+    const myStyle={
+        h1:{
+            textAlign: 'center',
+            padding: '20px',
+            margin: '0px auto',
+            backgroundColor: 'teal',
+            color: '#fff'
+        }
+    }
+    return(
+        <h1 style={myStyle.h1}> Header</h1>
+    )
+}
+
+export default Header;
+
+{/* Adding css using css objects */}
