@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import ReactDOM from "react-dom/client"
+import Header from "./Header"
 
 // Functional component
 // const App = () => {
@@ -14,7 +15,11 @@ import ReactDOM from "react-dom/client"
 class App extends Component{
     render(){
         return(
+            <div>
+            <Header />
+            <hr/>
             <h1>Class based component</h1>
+            </div>
         )
     }
 }
@@ -23,5 +28,4 @@ class App extends Component{
 // const root = ReactDOM.createRoot(container)
 // root.render(<App/>)
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<App />)
+const root = ReactDOM.createRoot(document.getElementById('root')).render(<App />)
